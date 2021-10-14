@@ -53,7 +53,7 @@ public class BasicProgrammingApp {
         //0 - 2000
         System.out.println();
         System.out.println("0 - 2000");
-        for (int i = 0; i <= smallest; i++){
+        for (int i = 0; i != number1 && i != number2 && i != number3 && i != number4 && i <= 2000; i++){
             System.out.println(i);
         }
 
